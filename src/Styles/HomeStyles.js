@@ -35,3 +35,7 @@ export const Figure = styled.figure`
     align-items: center;
     justify-content: center;
 `
+
+export const FlexContainer = styled.div`
+    display: flex;
+`

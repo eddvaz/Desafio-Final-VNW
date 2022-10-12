@@ -8,15 +8,17 @@ const Home = () => {
             <S.TitleContent>
                 <S.Title>Edivaldo Vaz</S.Title>
             </S.TitleContent>
-            <S.InfoContent>
-                <S.Paragraph>
-                    Olá a todos!
-                    Meu nome é Edivaldo Vaz, aluno do Vai na Web!
-                </S.Paragraph>
-            </S.InfoContent>
-            <S.Figure>
-                <img src={Programming} alt="pairprogramming"/>
-            </S.Figure>
+            <S.FlexContainer>
+                <S.InfoContent>
+                    <S.Paragraph>
+                        Olá a todos!
+                        Meu nome é Edivaldo Vaz, aluno do Vai na Web!
+                    </S.Paragraph>
+                </S.InfoContent>
+                <S.Figure>
+                    <img src={Programming} alt="pairprogramming"/>
+                </S.Figure>
+            </S.FlexContainer>
         </S.Container>
     )
 }

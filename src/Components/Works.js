@@ -1,10 +1,28 @@
 import React from "react";
+import * as S from "../Styles/WorksStyles"
 
 const Works = () => {
     return(
-        <div>
-            <h1>Pagina de projetos</h1>
-        </div>
+        <S.Container>
+            <S.Card>
+                Projeto aqui
+            </S.Card>
+            <S.Card>
+                Projeto aqui
+            </S.Card>
+            <S.Card>
+                Projeto aqui
+            </S.Card>
+            <S.Card>
+                Projeto aqui
+            </S.Card>
+            <S.Card>
+                Projeto aqui
+            </S.Card>
+            <S.Card>
+                Projeto aqui
+            </S.Card>
+        </S.Container>
     )
 }
 
