@@ -1,29 +1,13 @@
-import React from "react";
-import * as S from "../Styles/WorksStyles"
+import CardWork from "./Cards/CardWork";
+import * as S from "../Styles/WorkStyles"
+
 
 const Works = () => {
     return(
-        <S.Container>
-            <S.Card>
-                Projeto aqui
-            </S.Card>
-            <S.Card>
-                Projeto aqui
-            </S.Card>
-            <S.Card>
-                Projeto aqui
-            </S.Card>
-            <S.Card>
-                Projeto aqui
-            </S.Card>
-            <S.Card>
-                Projeto aqui
-            </S.Card>
-            <S.Card>
-                Projeto aqui
-            </S.Card>
-        </S.Container>
+        <S.WorkContainer>
+            <CardWork />
+        </S.WorkContainer>
     )
 }
-
 export default Works;
+
