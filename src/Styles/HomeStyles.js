@@ -59,7 +59,8 @@ export const Figure = styled.div`
 
 export const FlexContainer = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
 `
 
 export const SocialMediaContainer = styled.div`
