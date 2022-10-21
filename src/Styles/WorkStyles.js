@@ -8,4 +8,5 @@ export const WorkContainer = styled.div`
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background-color: #2d2d2d;
 `

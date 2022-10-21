@@ -7,6 +7,7 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     height: 90vh;
+    background-color: #2d2d2d;
 `
 
 export const TitleContent = styled.div`
@@ -18,6 +19,7 @@ export const TitleContent = styled.div`
     h2{
         font-size: 48px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #FFFF;
         animation: fadeInRightBig;
         animation-duration: 2s;
     }
@@ -26,6 +28,7 @@ export const TitleContent = styled.div`
 export const Title = styled.h1`
     font-size: 48px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFF;
     animation: fadeInLeftBig;
     animation-duration: 2s;
 `
@@ -43,6 +46,7 @@ export const InfoContent = styled.div`
 export const Paragraph = styled.p`
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFF;
 `
 
 export const Figure = styled.div`
