@@ -92,3 +92,10 @@
   transform: rotateY(180deg);
 }
 
+@media (max-width: 400px) {
+    .front,
+    .back{
+      width: 350px;
+    }  
+
+}

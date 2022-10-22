@@ -23,6 +23,12 @@ export const TitleContent = styled.div`
         animation: fadeInRightBig;
         animation-duration: 2s;
     }
+
+    @media (max-width: 400px) {
+        h2{
+            font-size: 16px;
+        }
+    }
 `
 
 export const Title = styled.h1`
@@ -31,6 +37,10 @@ export const Title = styled.h1`
     color: #FFFF;
     animation: fadeInLeftBig;
     animation-duration: 2s;
+
+    @media (max-width: 400px) {
+        font-size: 32px;
+    }
 `
 
 export const InfoContent = styled.div`
@@ -41,6 +51,11 @@ export const InfoContent = styled.div`
     width: 30%;
     animation: fadeInUp;
     animation-duration: 3s;
+
+    @media (max-width: 400px) {
+        width: 350px;
+        height: 450px;
+    }
 `
 
 export const Paragraph = styled.p`
@@ -58,6 +73,12 @@ export const Figure = styled.div`
 
     img{
         width: 600px;
+    }
+
+    @media (max-width: 400px) {
+        img{
+            display: none;
+        }
     }
 `
 
@@ -78,4 +99,12 @@ export const SocialMediaContainer = styled.div`
         width: 50px;
         height: 50px;
     }
+
+    @media (max-width: 400px) {
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
 `
+

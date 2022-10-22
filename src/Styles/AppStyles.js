@@ -26,8 +26,8 @@ export const UL = styled.ul`
     justify-content: space-around;
     align-items: center; 
 
-    @media (max-width: 375px) {
-        flex-direction: column;
+    @media (max-width: 400px) {
+        width: 100%;
     }
 `
 
@@ -69,6 +69,14 @@ export const LI = styled.li`
 
     button:hover:before {
         transform: translateX(15em);
+    }
+
+    @media (max-width: 400px) {
+        button{
+            width: 100px;
+            display: flex;
+            justify-content: center;
+        }
     }
 
 `
